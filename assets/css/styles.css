@@ -249,7 +249,7 @@ img {
 /*==================== HOME ====================*/
 
 .home__container{
-  gap: 1px;
+  gap: 1rem;
 }
 .home__content{
   grid-template-columns: .5fr 3fr;
@@ -259,7 +259,7 @@ img {
 .home__social{
   display: grid;
   grid-template-columns: max-content;
-  row-gap: 1px;
+  row-gap: 1rem;
 
 }
 .home__social-icon{
@@ -329,7 +329,18 @@ margin-bottom: var(--mb-0-75);
 display: inline-flex;
 align-items: center;
 }
+.button__icon{
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
 
+}
+.button--small{
+  padding: .75rem 1rem;
+}
+.button--link{
+  padding: 0;
+}
 /*==================== BUTTONS ====================*/
 
 
@@ -397,7 +408,7 @@ align-items: center;
 
 }
 .about__buttons:hover{
-  transform: scale(1.2)rotate(0deg);
+  transform: scale(1.2) rotate(0deg);
   cursor:default;
 
 
@@ -510,7 +521,7 @@ align-items: center;
 }
 .qualification__button:hover{
   color: var(--first-color);
-  transform: scale(1.1)rotate(0deg);
+  transform: scale(1.1) rotate(0deg);
 
 }
 .qualification__icon{
@@ -555,15 +566,92 @@ color: var(--text-color-light);
 .qualification__button.qualification__active{
   color: var(--first-color);
   color: var(--first-color);
-  transform: scale(1.1)rotate(0deg);
+  transform: scale(1.1) rotate(0deg);
   
 }
-.portfolio__img{
-  border-radius: 20px;
+.portfolio__container{
+  overflow: initial;
 
 }
+.portfolio__content{
+  padding: 0 1.5rem ;
 
+}
+/* .portfolio__button{
 
+} */
+.portfolio__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+  
+
+}
+.portfolio__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+.portfolio__descricao{
+  margin-bottom: var(--mb-0-75);
+}
+.portfolio__button:hover .button__icon{
+  transform: translateX(.25rem);
+
+}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  
+  content: '';
+}
+.swiper-portfolio-icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev{
+  left: -.5rem;
+}
+.swiper-button-next{
+  right: -.5rem;
+}
+.project{
+  text-align: center;
+
+}
+.project__bg{
+  background-color: var(--first-color);
+  padding: 2rem;
+
+}
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-77);
+}
+.project__description{
+  margin-bottom: var(--mb-1-5);
+}
+.project__title,.project__description{
+  color: #fff;
+
+}
+.project__img{
+  width: 250px;
+  border-radius:20%;
+  align-self: center;
+  justify-self: center;
+  background-color: aliceblue;
+  padding: 10px;
+
+}
+.button--white{
+  background-color: #fff;
+  color: var(--first-color);
+  padding: 10px;
+}
+.button--white:hover{
+  background-color: #fff;
+  
+}
 
 
 /*==================== SERVICES ====================*/

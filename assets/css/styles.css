@@ -330,7 +330,7 @@ display: inline-flex;
 align-items: center;
 }
 .button__icon{
-  font-size: 1.25rem;
+  font-size: 1.0rem;
   margin-left: var(--mb-0-5);
   transition: .3s;
 
@@ -639,7 +639,7 @@ color: var(--text-color-light);
   border-radius:20%;
   align-self: center;
   justify-self: center;
-  background-color: aliceblue;
+  background-color: var(--first-color);
   padding: 10px;
 
 }

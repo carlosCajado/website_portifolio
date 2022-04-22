@@ -27,7 +27,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-diamond nav__icon"></i>Home
                         </a>
                     </li>
@@ -65,6 +65,7 @@
 
                 </div>
             </div>
+            <i class="uil uil-moon change-theme " id="theme-button"></i>
         </nav>
 
     </header>
@@ -381,8 +382,8 @@
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">website(codeigniter-PHP)</h3>
                             <p class="portfolio__descricao"> Projeto e commerce </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">Visite!
-                                <i class="uil uil-arrow-right button__icon"></i>
+                            <a href="https://github.com/carlosCajado" class="button button--flex button--small portfolio__button">Visite!
+                                <i class="uil uil-github button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -416,7 +417,7 @@
             <div >
                 <div class="home__content container grid">                   
                     <div class="contact__information">
-                            <h3 class=" uil uil-whatsapp contact__icon">Whatsapp</h3>
+                            <h3 class=" uil uil-whatsapp contact__icon">Whatsapp:</h3>
                             <span>(99) 98408-5181</span>
                             <h3 class="uil uil-envelope-add contact__icon">Email:</h3>
                             <span>carlos.cajado@discente.ufma.br</span>
@@ -432,11 +433,18 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <h1 class="footer__title">&#169;Desenvolvido por Carlos E Cajado</h1>
+            </div>
+        </div>
 
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil uil-phone-volume scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>

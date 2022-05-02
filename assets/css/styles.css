@@ -386,7 +386,7 @@ align-items: center;
 
 }
 .about__description{
-  text-align: center;
+  text-align: justify;
   margin-bottom: var(--mb-2-5);
   
 }
@@ -493,6 +493,13 @@ align-items: center;
   display: block;
   background-color: var(--first-color);
 }
+.skills__adp{
+  width: 90%;
+}
+.skills__100{
+  width: 100%;
+}
+
 .skills__html{
   width: 90%;
 }
@@ -513,6 +520,10 @@ align-items: center;
 }
 .skills__sql{
   width: 80%;
+
+}
+.skills__ing{
+  width: 75%;
 
 }
 .skills__list{
@@ -879,13 +890,13 @@ color: var(--text-color-light);
   }
 
   .home__blob{
-    width: 320px;
+    width: 330px;
   }
   .portfolio__img{
-    width: 320px;
+    width: 300px;
   }
   .project__img{
-    width: 320px;
+    width: 300px;
   }
   .portfolio__content{
     align-items: center;
@@ -916,5 +927,7 @@ color: var(--text-color-light);
   .change-theme{
     margin: 0 ;
   }
+  .button__img{
+    width: 300px;}
 
 }

@@ -501,29 +501,29 @@ align-items: center;
 }
 
 .skills__html{
-  width: 90%;
+  width: 100%;
 }
 .skills__css{
-  width: 85%;
+  width: 100%;
 }
 .skills__react{
-  width: 55%;
+  width: 90%;
 }
 .skills__php{
-  width: 80%;
+  width: 100%;
 }
 .skills__node{
-  width: 60%;
+  width: 90%;
 }
 .skills__dht{
-  width: 40%;
+  width: 100%;
 }
 .skills__sql{
-  width: 80%;
+  width: 100%;
 
 }
 .skills__ing{
-  width: 75%;
+  width: 90%;
 
 }
 .skills__list{
